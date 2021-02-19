@@ -24,11 +24,11 @@ const Tab = createBottomTabNavigator({
       var routeName = navigation.state.routeName
       if(routeName == "Donate") {
         return(
-          <Image style={{width: 40,height: 40}}source={require('./assets/favicon.png')}></Image>
+          <Image style={{width: 40,height: 40}}source={require('./assets/Donate.png')}></Image>
         )
       } else if(routeName == "Request") {
         return(
-          <Image style={{width: 40,height: 40}} source={require('./assets/favicon.png')}></Image>
+          <Image style={{width: 40,height: 40}} source={require('./assets/Request.png')}></Image>
         )
       }
     }
