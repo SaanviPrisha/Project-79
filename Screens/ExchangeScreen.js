@@ -5,7 +5,7 @@ import db from '../config'
 import firebase from 'firebase'
 import MyHeader from '../components/MyHeader'
 
-export default class DonateScreen extends React.Component {
+export default class ExchangeScreen extends React.Component {
   constructor() {
     super()
     this.state = {
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
   details: {
     width: 100,
     height: 40,
-    backgroundColor: "#c1b8e3",
+    backgroundColor: "#e89e99",
     borderRadius: 5,
     alignText: 'center'
   },
