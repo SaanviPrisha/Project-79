@@ -4,7 +4,7 @@ import db from '../config'
 import firebase from 'firebase'
 import MyHeader from '../components/MyHeader'
 
-export default class RequestScreen extends React.Component {
+export default class HomeScreen extends React.Component {
     constructor() {
         super()
         this.state = {
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
   },
   RequestButton: {
     marginTop: 10,
-    backgroundColor: '#c1b8e3',
+    backgroundColor: '#e89e99',
     width: 100,
     height: 50,
     alignText: 'center',
